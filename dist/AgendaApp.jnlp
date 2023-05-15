@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AgendaApp.jnlp">
+    <information>
+        <title>AgendaApp</title>
+        <vendor>Administrador</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="9+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="AgendaApp.jar" size="5008" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="agendaapp.AgendaApp" name="AgendaApp"/>
+</jnlp>
+
